@@ -1,6 +1,8 @@
 # To configure your mac as I do, just execute this command
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/frugoman/mac_configurations/master/setup-script.sh)"`
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/frugoman/mac_configurations/master/setup-script.sh)"
+```
 
 It will install
 - Bash
