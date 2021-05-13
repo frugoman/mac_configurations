@@ -5,6 +5,8 @@ echo "installing iterm2"
 brew cask install iterm2
 echo 'installing chrome'
 brew install --cask google-chrome
+echo 'installing Alfred'
+brew install --cask alfred
 echo "installing vsc"
 brew install --cask visual-studio-code
 echo 'Profiles - Keys - Presets -> Natural Text Editing'
