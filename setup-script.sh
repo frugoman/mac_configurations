@@ -23,3 +23,4 @@ mv -f ~/supernewfile ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 echo 'replacing iterm2 configuration'
 curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/com.googlecode.iterm2.plist > ~/supernewfile
 mv -f ~/supernewfile ~/Library/Preferences/com.googlecode.iterm2.plist
+brew install --cask xcodes
