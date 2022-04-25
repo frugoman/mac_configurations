@@ -10,13 +10,6 @@ function _git_log_prettily(){
 }
 compdef _git _git_log_prettily=git-log
 
-# Warn if the current branch is a WIP
-function work_in_progress() {
-  if $(git log -n 1 2>/dev/null | grep -q -c "\-\-wip\-\-"); then
-    echo "WIP!!"
-  fi
-}
-
 #
 # Aliases
 #
