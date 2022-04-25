@@ -20,5 +20,5 @@ alias gcm="git commit -m"
 alias gpo='git push -u origin "$(git_current_branch)"'
 alias gd="git diff"
 alias gco="git checkout"
-alias gb="git branch"
+alias gb="git checkout -b"
 ```
