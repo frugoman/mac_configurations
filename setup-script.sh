@@ -16,6 +16,12 @@ echo "installing bash"
 brew install bash
 echo "installing oh my zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+echo "installing zsh plugins"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+echo 'configuring zsh plugins'
+curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/.zshrc > ~/supernewfile
+mv -f ~/supernewfile ~/.zshrc
 open https://gist.github.com/kevin-smets/8568070#oh-my-zsh
 echo 'replacing git.plugin.zsh'
 curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/git.plugin.zsh > ~/supernewfile
