@@ -11,6 +11,7 @@ It will install
 - Google Chrome
 - Alfred 4
 - Oh my zsh
+- Zsh plugins: zsh-autosuggestions, zsh-syntax-highlighting, web-search
 
 And it will also apply some custom configuration to zsh and iTerm2, like naturaly typing and some git aliases that I preffer over the ones in oh my zsh such as
 ``` bash
