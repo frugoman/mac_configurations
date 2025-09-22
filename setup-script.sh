@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/.zshrc
 mv -f ~/supernewfile ~/.zshrc
 open https://gist.github.com/kevin-smets/8568070#oh-my-zsh
 echo 'replacing git.plugin.zsh'
-curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/git.plugin.zsh > ~/supernewfile
+curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/.oh-my-zsh/custom/plugins/git/git.plugin.zsh > ~/supernewfile
 mv -f ~/supernewfile ~/.oh-my-zsh/custom/plugins/git/git.plugin.zsh
 echo 'replacing iterm2 configuration'
 curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/com.googlecode.iterm2.plist > ~/supernewfile
