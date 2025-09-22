@@ -19,9 +19,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools
 echo "installing zsh plugins"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+echo "installing powerlevel10k theme"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 echo 'configuring zsh plugins'
 curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/.zshrc > ~/supernewfile
 mv -f ~/supernewfile ~/.zshrc
+echo 'configuring powerlevel10k'
+curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/.p10k.zsh > ~/supernewfile
+mv -f ~/supernewfile ~/.p10k.zsh
 open https://gist.github.com/kevin-smets/8568070#oh-my-zsh
 echo 'replacing git.plugin.zsh'
 curl https://raw.githubusercontent.com/frugoman/mac_configurations/master/git.plugin.zsh > ~/supernewfile
