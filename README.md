@@ -11,9 +11,10 @@ It will install
 - Google Chrome
 - Alfred 4
 - Oh my zsh
+- Powerlevel10k theme for enhanced shell prompt
 - Zsh plugins: zsh-autosuggestions, zsh-syntax-highlighting, web-search
 
-And it will also apply some custom configuration to zsh and iTerm2, like naturaly typing and some git aliases that I preffer over the ones in oh my zsh such as
+And it will also apply some custom configuration to zsh, Powerlevel10k theme (with custom prompt format: [full-path] ([branchname])), and iTerm2, like naturally typing and some git aliases that I prefer over the ones in oh my zsh such as
 ``` bash
 alias gst="git status"
 alias gam="git add .; git commit -m"
